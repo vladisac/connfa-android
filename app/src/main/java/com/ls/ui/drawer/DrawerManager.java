@@ -34,15 +34,15 @@ public class DrawerManager {
 				fragmentTag = EventHolderFragment.TAG;
 				break;
 
-			case Bofs:
-				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Bofs.ordinal());
-				fragmentTag = EventHolderFragment.TAG;
-				break;
-
-			case Social:
-				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Social.ordinal());
-				fragmentTag = EventHolderFragment.TAG;
-				break;
+//			case Bofs:
+//				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Bofs.ordinal());
+//				fragmentTag = EventHolderFragment.TAG;
+//				break;
+//
+//			case Social:
+//				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Social.ordinal());
+//				fragmentTag = EventHolderFragment.TAG;
+//				break;
 
 			case Favorites:
 				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Favorites.ordinal());
