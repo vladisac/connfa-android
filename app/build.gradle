@@ -53,7 +53,7 @@ dependencies {
     compile 'com.jpardogo.materialtabstrip:library:1.0.8'
     compile project(':ParallaxScroll')
     compile project(':drupalSDK')
-    compile('com.crashlytics.sdk.android:crashlytics:2.4.0@aar') {
+    compile('com.crashlytics.sdk.android:crashlytics:2.5.5@aar') {
         transitive = true;
     }
 }
