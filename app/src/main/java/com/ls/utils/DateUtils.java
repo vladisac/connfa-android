@@ -1,6 +1,6 @@
 package com.ls.utils;
 
-import com.ls.drupalcon.model.PreferencesManager;
+import com.ls.hacktmcon.model.PreferencesManager;
 
 import org.jetbrains.annotations.NotNull;
 

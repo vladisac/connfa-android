@@ -1,8 +1,8 @@
 package com.ls.ui.adapter;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.data.Level;
-import com.ls.drupalcon.model.data.Track;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.data.Level;
+import com.ls.hacktmcon.model.data.Track;
 
 import android.content.Context;
 import android.view.LayoutInflater;

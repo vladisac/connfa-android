@@ -1,10 +1,10 @@
 package com.ls.ui.fragment;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.UpdatesManager;
-import com.ls.drupalcon.model.data.Speaker;
-import com.ls.drupalcon.model.managers.SpeakerManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.UpdatesManager;
+import com.ls.hacktmcon.model.data.Speaker;
+import com.ls.hacktmcon.model.managers.SpeakerManager;
 import com.ls.ui.activity.SpeakerDetailsActivity;
 import com.ls.ui.adapter.SpeakersAdapter;
 

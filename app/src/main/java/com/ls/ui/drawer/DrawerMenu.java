@@ -1,7 +1,7 @@
 package com.ls.ui.drawer;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.app.App;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.app.App;
 
 public class DrawerMenu {
 

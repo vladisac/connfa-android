@@ -1,15 +1,13 @@
 package com.ls.utils;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.data.EventDetailsEvent;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.data.EventDetailsEvent;
 import com.ls.receiver.NotifyReceiver;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-
-import java.util.Calendar;
 
 public class AlarmTask implements Runnable {
 

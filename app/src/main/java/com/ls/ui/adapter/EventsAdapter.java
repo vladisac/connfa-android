@@ -1,10 +1,10 @@
 package com.ls.ui.adapter;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.app.App;
-import com.ls.drupalcon.model.data.Event;
-import com.ls.drupalcon.model.data.Level;
-import com.ls.drupalcon.model.data.Type;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.app.App;
+import com.ls.hacktmcon.model.data.Event;
+import com.ls.hacktmcon.model.data.Level;
+import com.ls.hacktmcon.model.data.Type;
 import com.ls.ui.adapter.item.BofsItem;
 import com.ls.ui.adapter.item.EventListItem;
 import com.ls.ui.adapter.item.HeaderItem;
@@ -18,7 +18,6 @@ import android.content.Context;
 import android.graphics.Color;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
-import android.text.format.DateFormat;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;

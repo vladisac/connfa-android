@@ -1,6 +1,6 @@
 package com.ls.ui.dialog;
 
-import com.ls.drupalcon.R;
+import com.ls.hacktmcon.R;
 
 import android.app.AlertDialog;
 import android.app.Dialog;

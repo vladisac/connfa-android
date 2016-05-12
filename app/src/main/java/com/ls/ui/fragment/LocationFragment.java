@@ -7,11 +7,11 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.UpdatesManager;
-import com.ls.drupalcon.model.data.Location;
-import com.ls.drupalcon.model.managers.LocationManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.UpdatesManager;
+import com.ls.hacktmcon.model.data.Location;
+import com.ls.hacktmcon.model.managers.LocationManager;
 
 import android.os.AsyncTask;
 import android.os.Bundle;

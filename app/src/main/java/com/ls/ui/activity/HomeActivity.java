@@ -2,13 +2,13 @@ package com.ls.ui.activity;
 
 import com.google.android.gms.analytics.GoogleAnalytics;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.app.App;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.UpdatesManager;
-import com.ls.drupalcon.model.data.Level;
-import com.ls.drupalcon.model.data.Track;
-import com.ls.drupalcon.model.managers.TracksManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.app.App;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.UpdatesManager;
+import com.ls.hacktmcon.model.data.Level;
+import com.ls.hacktmcon.model.data.Track;
+import com.ls.hacktmcon.model.managers.TracksManager;
 import com.ls.ui.adapter.item.EventListItem;
 import com.ls.ui.dialog.FilterDialog;
 import com.ls.ui.dialog.IrrelevantTimezoneDialog;

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="google_maps_api_key">AIzaSyBssk81wlfgQCQ-QE12wKtDQtiPlV-nwZI</string> <!-- //release key -->
+    <string name="google_maps_api_key">AIzaSyBbnC5OpH5_oyFYiTBX_wk-Y81c5Beqgc4</string> <!-- //release key -->
 
-    <string name="app_name">DrupalCon</string>
+    <string name="app_name">HackTM 2016</string>
     <string name="Sessions">Sessions</string>
     <string name="bofs">BoFs</string>
     <string name="speakers">Speakers</string>

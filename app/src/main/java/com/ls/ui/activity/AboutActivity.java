@@ -1,10 +1,10 @@
 package com.ls.ui.activity;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.UpdatesManager;
-import com.ls.drupalcon.model.data.InfoItem;
-import com.ls.drupalcon.model.managers.InfoManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.UpdatesManager;
+import com.ls.hacktmcon.model.data.InfoItem;
+import com.ls.hacktmcon.model.managers.InfoManager;
 import com.ls.utils.L;
 
 import android.app.Activity;

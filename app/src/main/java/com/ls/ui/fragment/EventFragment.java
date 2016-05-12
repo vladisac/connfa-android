@@ -1,10 +1,10 @@
 package com.ls.ui.fragment;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.EventGenerator;
-import com.ls.drupalcon.model.PreferencesManager;
-import com.ls.drupalcon.model.data.Event;
-import com.ls.drupalcon.model.data.Type;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.EventGenerator;
+import com.ls.hacktmcon.model.PreferencesManager;
+import com.ls.hacktmcon.model.data.Event;
+import com.ls.hacktmcon.model.data.Type;
 import com.ls.ui.activity.EventDetailsActivity;
 import com.ls.ui.adapter.EventsAdapter;
 import com.ls.ui.adapter.item.EventListItem;
@@ -26,7 +26,6 @@ import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 public class EventFragment extends Fragment implements EventsAdapter.Listener {

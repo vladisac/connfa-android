@@ -2,14 +2,14 @@ package com.ls.ui.fragment;
 
 
 import com.astuetz.PagerSlidingTabStrip;
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.PreferencesManager;
-import com.ls.drupalcon.model.UpdatesManager;
-import com.ls.drupalcon.model.managers.BofsManager;
-import com.ls.drupalcon.model.managers.FavoriteManager;
-import com.ls.drupalcon.model.managers.ProgramManager;
-import com.ls.drupalcon.model.managers.SocialManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.PreferencesManager;
+import com.ls.hacktmcon.model.UpdatesManager;
+import com.ls.hacktmcon.model.managers.BofsManager;
+import com.ls.hacktmcon.model.managers.FavoriteManager;
+import com.ls.hacktmcon.model.managers.ProgramManager;
+import com.ls.hacktmcon.model.managers.SocialManager;
 import com.ls.ui.activity.HomeActivity;
 import com.ls.ui.adapter.BaseEventDaysPagerAdapter;
 import com.ls.ui.drawer.DrawerManager;

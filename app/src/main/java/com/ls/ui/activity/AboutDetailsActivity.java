@@ -3,9 +3,9 @@ package com.ls.ui.activity;
 import android.webkit.WebViewClient;
 import com.google.android.gms.analytics.GoogleAnalytics;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.UpdatesManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.UpdatesManager;
 import com.ls.utils.AnalyticsManager;
 
 import android.os.Bundle;

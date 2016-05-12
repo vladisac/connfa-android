@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.widget.Toast;
-import com.ls.drupalcon.R;
+import com.ls.hacktmcon.R;
 
 import android.app.Activity;
 

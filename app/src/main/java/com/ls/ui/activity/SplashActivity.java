@@ -1,10 +1,10 @@
 package com.ls.ui.activity;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.PreferencesManager;
-import com.ls.drupalcon.model.UpdateCallback;
-import com.ls.drupalcon.model.UpdatesManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.PreferencesManager;
+import com.ls.hacktmcon.model.UpdateCallback;
+import com.ls.hacktmcon.model.UpdatesManager;
 import com.ls.ui.dialog.NoConnectionDialog;
 import com.ls.util.L;
 import com.ls.utils.AnalyticsManager;

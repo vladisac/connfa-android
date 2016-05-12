@@ -1,15 +1,15 @@
 package com.ls.ui.activity;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.Model;
-import com.ls.drupalcon.model.PreferencesManager;
-import com.ls.drupalcon.model.UpdatesManager;
-import com.ls.drupalcon.model.data.EventDetailsEvent;
-import com.ls.drupalcon.model.data.Level;
-import com.ls.drupalcon.model.data.Speaker;
-import com.ls.drupalcon.model.managers.EventManager;
-import com.ls.drupalcon.model.managers.FavoriteManager;
-import com.ls.drupalcon.model.managers.SpeakerManager;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.Model;
+import com.ls.hacktmcon.model.PreferencesManager;
+import com.ls.hacktmcon.model.UpdatesManager;
+import com.ls.hacktmcon.model.data.EventDetailsEvent;
+import com.ls.hacktmcon.model.data.Level;
+import com.ls.hacktmcon.model.data.Speaker;
+import com.ls.hacktmcon.model.managers.EventManager;
+import com.ls.hacktmcon.model.managers.FavoriteManager;
+import com.ls.hacktmcon.model.managers.SpeakerManager;
 import com.ls.ui.receiver.ReceiverManager;
 import com.ls.ui.view.CircleImageView;
 import com.ls.ui.view.NotifyingScrollView;
@@ -42,8 +42,6 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 public class EventDetailsActivity extends StackKeeperActivity {

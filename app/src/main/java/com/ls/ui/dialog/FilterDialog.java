@@ -1,9 +1,9 @@
 package com.ls.ui.dialog;
 
-import com.ls.drupalcon.R;
-import com.ls.drupalcon.model.PreferencesManager;
-import com.ls.drupalcon.model.data.Level;
-import com.ls.drupalcon.model.data.Track;
+import com.ls.hacktmcon.R;
+import com.ls.hacktmcon.model.PreferencesManager;
+import com.ls.hacktmcon.model.data.Level;
+import com.ls.hacktmcon.model.data.Track;
 import com.ls.ui.adapter.FilterDialogAdapter;
 
 import android.app.Activity;

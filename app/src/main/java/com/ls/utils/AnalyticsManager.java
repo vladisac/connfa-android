@@ -3,7 +3,7 @@ package com.ls.utils;
 import com.google.android.gms.analytics.HitBuilders;
 import com.google.android.gms.analytics.Tracker;
 
-import com.ls.drupalcon.app.App;
+import com.ls.hacktmcon.app.App;
 
 import android.app.Activity;
 

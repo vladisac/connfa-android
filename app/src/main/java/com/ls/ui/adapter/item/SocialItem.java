@@ -1,6 +1,6 @@
 package com.ls.ui.adapter.item;
 
-import com.ls.drupalcon.model.data.Event;
+import com.ls.hacktmcon.model.data.Event;
 
 public class SocialItem implements EventListItem {
 
