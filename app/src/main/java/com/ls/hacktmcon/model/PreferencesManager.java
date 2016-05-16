@@ -50,7 +50,11 @@ public class PreferencesManager {
 
     public TimeZone getServerTimeZoneObject() {
         String timezoneId = getTimeZone();
-        return TimeZone.getTimeZone(timezoneId);
+
+        TimeZone tz = TimeZone.getTimeZone(timezoneId);
+        tz.setRawOffset(tz.getDSTSavings());
+
+        return tz;
     }
 
     public void saveLastUpdateDate(String value) {

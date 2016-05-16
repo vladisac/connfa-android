@@ -47,7 +47,6 @@ public class DrawerManager {
 //				break;
 
 			case Favorites:
-				//Log.d("HACKTM", "(DrawerMenu.DrawerItem.Favorites.ordinal(): " + (DrawerMenu.DrawerItem.Favorites.ordinal()));
 //				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Favorites.ordinal());
 				fragment = EventHolderFragment.newInstance(4);
 				fragmentTag = EventHolderFragment.TAG;

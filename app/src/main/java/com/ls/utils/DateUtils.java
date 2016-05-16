@@ -7,6 +7,7 @@ import org.jetbrains.annotations.NotNull;
 import android.content.Context;
 import android.support.annotation.Nullable;
 import android.text.format.DateFormat;
+import android.util.Log;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -24,6 +25,8 @@ public class DateUtils {
     public DateUtils() {
         mDateFormat = new SimpleDateFormat("", Locale.ENGLISH);
         mTimezone = PreferencesManager.getInstance().getServerTimeZoneObject();
+
+        TimeZone tz = TimeZone.getDefault();
         mDateFormat.setTimeZone(mTimezone);
     }
 

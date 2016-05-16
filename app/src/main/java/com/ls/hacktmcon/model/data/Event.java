@@ -11,6 +11,7 @@ import org.jetbrains.annotations.NotNull;
 
 import android.content.ContentValues;
 import android.database.Cursor;
+import android.util.Log;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -19,6 +20,7 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.TimeZone;
 
 public class Event extends AbstractEntity<Long> implements Comparable<Event>{
 
@@ -182,6 +184,7 @@ public class Event extends AbstractEntity<Long> implements Comparable<Event>{
         if (time != null) {
             SimpleDateFormat format = new SimpleDateFormat("kk:mm", Locale.ENGLISH);
             format.setTimeZone(PreferencesManager.getInstance().getServerTimeZoneObject());
+
             return format.format(time.getTime());
         } else {
             return null;

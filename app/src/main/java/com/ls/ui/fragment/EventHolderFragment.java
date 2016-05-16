@@ -167,7 +167,6 @@ public class EventHolderFragment extends Fragment {
     }
 
     private List<Long> getDayList() {
-        Log.d("HACKTM", "getDayList() -> EventMode: " + mEventMode);
         List<Long> dayList = new ArrayList<>();
         switch (mEventMode) {
             case Bofs:
@@ -180,7 +179,6 @@ public class EventHolderFragment extends Fragment {
                 break;
             case Favorites:
                 FavoriteManager favoriteManager = Model.instance().getFavoriteManager();
-                Log.d("HACKTM", "favoriteManager.getFavoriteEventDays(): " + favoriteManager.getFavoriteEventDays().size());
                 dayList.addAll(favoriteManager.getFavoriteEventDays());
                 break;
             default:
