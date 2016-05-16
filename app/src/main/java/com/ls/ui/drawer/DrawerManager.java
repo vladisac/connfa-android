@@ -3,6 +3,8 @@ package com.ls.ui.drawer;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.util.Log;
+
 import com.ls.ui.fragment.EventHolderFragment;
 import com.ls.ui.fragment.LocationFragment;
 import com.ls.ui.fragment.SpeakersListFragment;
@@ -45,7 +47,9 @@ public class DrawerManager {
 //				break;
 
 			case Favorites:
-				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Favorites.ordinal());
+				//Log.d("HACKTM", "(DrawerMenu.DrawerItem.Favorites.ordinal(): " + (DrawerMenu.DrawerItem.Favorites.ordinal()));
+//				fragment = EventHolderFragment.newInstance(DrawerMenu.DrawerItem.Favorites.ordinal());
+				fragment = EventHolderFragment.newInstance(4);
 				fragmentTag = EventHolderFragment.TAG;
 				break;
 
