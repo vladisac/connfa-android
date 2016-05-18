@@ -3,6 +3,6 @@ package com.ls.utils;
 public class ApplicationConfig {
 //    public final static String BASE_URL = "http://drupalconbarcelona2015.uat.link/api/v2/";
     public final static String BASE_URL = "http://46.101.230.21/api/";
-    public static final String PROPERTY_ID = "Goodle Analytisc App ID stub";
+    public static final String PROPERTY_ID = "UA-54771980-3";
     public static final int CACHE_DISK_USAGE_BYTES = 20 * 1024 * 1024;
 }
